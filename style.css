@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Open+Sans:ital,wght@1,800&display=swap');
+
+body {
+    background-color: lightgreen;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Corinthia', cursive;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+nav ul{
+ display: flex;
+ align-items: center;
+ list-style-type: none;
+ height: 65px;
+ background: cyan;
+ color: black;
+}
+
+.brand img {
+    width: 94px;
+    height: 65px;
+    padding: 0 8px;
+    background-color: cyan;
+}
+
+img {
+    height: 100px;
+    width: 125px;
+   
+}
+
+
+nav ul li{
+padding-left: 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: #0a0a0a;
+    color: white;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-img {
+    height: 95.5%;
+    width: 179%;
+    border-radius: 5px;
+}
+
+
+.container {
+    height: 72vh;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 66%;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-image: url('bg.jpg');
+}
+
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor:pointer;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+  
+    color:white;
+    background-color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width : 45px;
+    height: 45px;
+    margin: 0px 15px;
+    border-radius: 34px;
+     
+}
+
+.timeStamp{
+    margin: 0px 23px;
+    cursor: pointer;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.songInfo img{
+    margin-top: 5px;
+    height: 20px;
+    padding-top: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
